@@ -1,0 +1,82 @@
+@media only screen and (max-width: 991px){
+    
+
+    /* header */
+    .header .navbar-nav{
+        margin-top: -1000px;
+        color: black;
+    }
+    .header h1{
+        justify-content: right;
+        position: relative;
+        text-align: right;
+    }
+    .header p{
+        
+    }
+    .header .btn{
+        margin-left: 100px;
+    }
+
+    .about p{
+        text-align: right;
+    }
+
+    .service{
+        width: 1000px;
+        margin-left: -35px;
+    }
+    .service p{
+        margin-left: 15px;
+    }
+
+    .testimonial .card{
+        width: 260px;
+        margin-left: 0px;
+    }
+    .testimonial .card-text{
+        width: 200px;
+        height: 80px;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        color: #393545;
+    }
+    .testimonial .card-item h1{
+        margin-top: 70px;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: right;
+    }
+    .testimonial .card-item h2{
+        font-size: 10px;
+        line-height: 30px;
+        color: #393545;
+        text-align: right;
+        margin-top: -73px;
+    }
+    .testimonial .card-item i{
+        width: 64px;
+        height: 64px;
+        margin-left: 0px; 
+    }
+
+    .new .card{
+        width: 1000px;
+    }
+
+    .download{
+        width: 100%;
+    }
+    .download h1, .download p{
+        margin-left: 100px;
+    }
+    
+    .footer{
+        margin-left: 100px;
+    }
+    .footer .item{
+        margin-left: -40px;
+    }
+
+}
