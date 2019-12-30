@@ -80,3 +80,51 @@
     }
 
 }
+
+@media only screen and (max-width: 767px){
+    body{
+        overflow-x: hidden;
+    }
+    .header {
+        text-align: center;
+    }
+    .header h1, .header p{
+        margin-top: auto;
+    }
+
+    .about{
+        text-align: center;
+    }
+    .about h1, .about p{
+        text-align: center;
+        margin-top: auto;        
+    }
+
+    .service{
+        text-align: center;
+    }
+    .service .p{
+        position: relative;
+        margin-left: 37%;
+    }
+
+    .testimonial .card{
+        margin-left: 10%;
+    }
+
+    .new .card{
+        margin-top: 20px;
+    }
+
+    .download .btn{
+        margin-top: auto;
+        margin-left: -15px;
+    }
+
+    .footer .row{
+        margin-bottom: 20px;
+    }
+    .footer .social{
+        margin-top: 20px;
+    }
+}
