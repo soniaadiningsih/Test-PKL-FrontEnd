@@ -2,13 +2,14 @@ body{
     overflow-x: hidden;
 }
 
-/* header */
-.navbar{
-    margin-top: 48px;
+.header {
+}
+.header .header-img{
+    background-image: url("assets/img-hero.png");
 }
 .header h1{
     margin-top: 100px;
-    font-size: 42px;
+    font-size: 42px;ss
     line-height: 54.6px;
     margin-bottom: 30px;
 }
@@ -18,7 +19,7 @@ body{
     line-height: 30px;
     color: rgba(57, 53, 69, 0.8);
 }
-.header button{
+.header .btn-light{
     font-size: 16px;
     text-align: center;
     line-height: 26px;
@@ -31,9 +32,8 @@ body{
 }
 
 /* about */
-.about .img-about{
-    margin-top: 50px;
-    margin-left: 89px;
+.about .about-img{
+    background-color: #6cbb01;
 }
 .about h1{
     margin-top: 80px;
@@ -45,13 +45,7 @@ body{
     font-size: 18px;
     line-height: 30px;
 }
-.about .btn{
-    background-color: #6cbb01;
-    width: 150px;
-    height: 38px;    
-    color: white;
-    border-radius: 4px;
-}
+
 
 /* service */
 .service{
@@ -71,22 +65,13 @@ body{
 .service .logo{
     margin-top: 20px;
 }
-.service p{
-    margin-top: 23px;
-    font-size: 14.1px;
-    line-height: 20.1px;
-    text-align: center !important;
-    width: 263px;
-    margin-left: 100px;
-}
+
 
 /* testimonial */
 .testimonial .card{
     border-radius: 6px;
     width: 370px;
     height: 260px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-top: 110px;
     margin-bottom: 158px;
 }
@@ -113,12 +98,12 @@ body{
     line-height: 30px;
     color: #393545;
     margin-left: 140px;
-    margin-top: -73px;
+    margin-top: -20px;
 }
 .testimonial .card-item i{
-    width: 64px;
-    height: 64px;
-    margin-left: 280px; 
+    font-size: 40px;
+    margin-left: 280px;
+    margin-top: -120px; 
 }
 
 /* new */
@@ -148,11 +133,11 @@ body{
 .new .card-link{
     font-size: 14px;
     line-height: 20px;
-    text-align: right !important;
+    text-align: center;
     color: #432b87;
-    margin-left: 173px;
+    justify-content: right;
 }
-.new .btn{
+.new .btn-dark{
     margin-top: 78px;
     margin-bottom: 78px;
     width: 190px;
@@ -163,6 +148,7 @@ body{
     text-align: center;
     background-color: #432b87;
     color: white;
+    justify-content: center;
 }
 
 /* download */
@@ -175,15 +161,13 @@ body{
     text-align: left;
     line-height: 54.6px;
     color: #261d40;
-    margin-left: 191px;
 }
 .download p{
     margin-top: 31px;
     font-size: 18px;
     line-height: 30px;
-    text-align: justify;
+    /* text-align: justify; */
     color: rgba(57, 53, 69, 0.8);
-    margin-left: 191px;
     width: 567px;
     height: 48px;
     opacity: 80%;
