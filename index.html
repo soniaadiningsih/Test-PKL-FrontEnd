@@ -111,9 +111,11 @@
             <div class="card-body">
                 <p class="card-text">Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXpin, etc.</p>
                 <div class="card-item">
-                    <h1>Dono Nakata</h1>
-                    <i class="fas fa-user-circle"></i>
-                    <h2>CEO Warkop DKI</h2>
+                    <i class="fas fa-user-circle icon"></i>
+                    <div class="text">
+                        <h1>Dono Nakata</h1>
+                        <span>CEO Warkop DKI</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,9 +123,11 @@
             <div class="card-body">
                 <p class="card-text">Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXpin, etc.</p>
                 <div class="card-item">
-                    <h1>Dono Nakata</h1>
-                    <i class="fas fa-user-circle"></i>
-                    <h2>CEO Warkop DKI</h2>
+                    <i class="fas fa-user-circle icon"></i>
+                    <div class="text">
+                        <h1>Dono Nakata</h1>
+                        <span>CEO Warkop DKI</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,9 +135,11 @@
             <div class="card-body">
                 <p class="card-text">Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXpin, etc.</p>
                 <div class="card-item">
-                    <h1>Dono Nakata</h1>
-                    <i class="fas fa-user-circle"></i>
-                    <h2>CEO Warkop DKI</h2>
+                    <i class="fas fa-user-circle icon"></i>
+                    <div class="text">
+                        <h1>Dono Nakata</h1>
+                        <span>CEO Warkop DKI</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -141,9 +147,11 @@
             <div class="card-body">
                 <p class="card-text">Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXpin, etc.</p>
                 <div class="card-item">
-                    <h1>Dono Nakata</h1>
-                    <i class="fas fa-user-circle"></i>
-                    <h2>CEO Warkop DKI</h2>
+                    <i class="fas fa-user-circle icon"></i>
+                    <div class="text">
+                        <h1>Dono Nakata</h1>
+                        <span>CEO Warkop DKI</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -151,9 +159,11 @@
             <div class="card-body">
                 <p class="card-text">Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXpin, etc.</p>
                 <div class="card-item">
-                    <h1>Dono Nakata</h1>
-                    <i class="fas fa-user-circle"></i>
-                    <h2>CEO Warkop DKI</h2>
+                    <i class="fas fa-user-circle icon"></i>
+                    <div class="text">
+                        <h1>Dono Nakata</h1>
+                        <span>CEO Warkop DKI</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -265,37 +275,40 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- slick -->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="slick/slick-1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('.myslider').slick({
+        $('.myslider').slick({
+            centerMode: true,
+            slidesToShow: 3,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
                 centerMode: true,
-                centerPadding: '60px',
-                slidesToShow: 3,
-                responsive: [
-                    {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 3
-                    }
-                    },
-                    {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                    }
-                ]
-            });
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+            }
+        ]
         });
+
     </script>
 </body>
 </html>
