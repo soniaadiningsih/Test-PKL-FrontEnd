@@ -4,3 +4,8 @@
 [0105/223417.807:ERROR:process_info.cc(359)] UncheckedAllocate
 [0105/223418.156:ERROR:process_info.cc(359)] UncheckedAllocate
 [0105/223424.974:ERROR:process_info.cc(359)] UncheckedAllocate
+[0107/004731.390:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0107/005731.450:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0107/005731.480:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0107/010231.410:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0107/173318.645:ERROR:crash_report_database_win.cc(428)] unexpected header
